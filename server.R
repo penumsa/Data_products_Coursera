@@ -10,7 +10,8 @@ shinyServer(function(input, output) {
          main="Degree vs Occupation", type = "s", 
          xlab=names(Degree_Occupation[,1]), 
          ylab = "Employed Count",
-         lwd = 7)
+         lwd = 7
+    )
   })
    
 })
